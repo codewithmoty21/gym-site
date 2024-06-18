@@ -1,0 +1,50 @@
+.login {
+    padding: 50px 0;
+    background: #fff;
+  }
+  
+  .login .container {
+    text-align: center;
+  }
+  
+  .login h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login-form {
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .cta-button {
+    background: #e91e63;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background: #d81b60;
+  }
+  

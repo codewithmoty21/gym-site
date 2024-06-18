@@ -1,0 +1,43 @@
+.programs {
+    padding: 50px 0;
+    background: #fff;
+  }
+  
+  .program-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .program {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .program:hover {
+    transform: scale(1.05);
+  }
+  
+  .program-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .program h3 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+  }
+  
+  .program p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
